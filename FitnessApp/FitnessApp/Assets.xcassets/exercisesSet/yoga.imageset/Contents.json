@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Meditation-rafiki.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

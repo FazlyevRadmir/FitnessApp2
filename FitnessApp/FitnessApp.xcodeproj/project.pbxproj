@@ -1,0 +1,1034 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AA68E692A28E7110002E756 /* TrainStretchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA68E682A28E7110002E756 /* TrainStretchViewController.swift */; };
+		9AA68E6B2A28E7230002E756 /* TrainWarmupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA68E6A2A28E7230002E756 /* TrainWarmupViewController.swift */; };
+		9AD0B01C2A02995500CB5923 /* StretchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD0B01B2A02995500CB5923 /* StretchingViewController.swift */; };
+		9AD0B01E2A02998A00CB5923 /* stretching.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AD0B01D2A02998A00CB5923 /* stretching.json */; };
+		9AD0B0202A0299CB00CB5923 /* WarmUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD0B01F2A0299CB00CB5923 /* WarmUpViewController.swift */; };
+		9AD0B0222A0299EC00CB5923 /* warm-up.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AD0B0212A0299EC00CB5923 /* warm-up.json */; };
+		9AD6D07B29E897B400DF375A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6D07A29E897B400DF375A /* TabBarController.swift */; };
+		9AD6D08029E8988F00DF375A /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6D07C29E8988F00DF375A /* ActivityViewController.swift */; };
+		9AD6D08129E8988F00DF375A /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6D07D29E8988F00DF375A /* MapsViewController.swift */; };
+		9AD6D08229E8988F00DF375A /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6D07E29E8988F00DF375A /* TrainViewController.swift */; };
+		9AD6D08329E8988F00DF375A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6D07F29E8988F00DF375A /* ProfileViewController.swift */; };
+		9AD6D08629E8993F00DF375A /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6D08429E8993F00DF375A /* ExercisesViewController.swift */; };
+		9AD6D08729E8993F00DF375A /* MyTrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6D08529E8993F00DF375A /* MyTrainViewController.swift */; };
+		9AE00F532A13652C0078EB93 /* BodyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE00F522A13652C0078EB93 /* BodyDetailViewController.swift */; };
+		9AE00F5F2A13953E0078EB93 /* TrainBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE00F5E2A13953E0078EB93 /* TrainBodyViewController.swift */; };
+		9AECB2A52A24DA310063574E /* StretchingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AECB2A42A24DA310063574E /* StretchingDetailViewController.swift */; };
+		9AECB2A72A24E54B0063574E /* WarmUpDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AECB2A62A24E54B0063574E /* WarmUpDetailViewController.swift */; };
+		9AECB2AA2A2518400063574E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AECB2A92A2518400063574E /* HistoryViewController.swift */; };
+		9AECEDE32A02535B00EC27AC /* allBody.json in Resources */ = {isa = PBXBuildFile; fileRef = 9AECEDE22A02535B00EC27AC /* allBody.json */; };
+		9AECEDE62A0253A400EC27AC /* BodyExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AECEDE52A0253A400EC27AC /* BodyExercisesViewController.swift */; };
+		B320A6CD29CC23AE00859A64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320A6CC29CC23AE00859A64 /* AppDelegate.swift */; };
+		B320A6CF29CC23AE00859A64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320A6CE29CC23AE00859A64 /* SceneDelegate.swift */; };
+		B320A6D729CC23AE00859A64 /* FitnessApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B320A6D529CC23AE00859A64 /* FitnessApp.xcdatamodeld */; };
+		B320A6D929CC23AF00859A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B320A6D829CC23AF00859A64 /* Assets.xcassets */; };
+		B320A6DC29CC23AF00859A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B320A6DA29CC23AF00859A64 /* LaunchScreen.storyboard */; };
+		B320A70329CC29AE00859A64 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B320A70229CC29AE00859A64 /* FirebaseAnalytics */; };
+		B320A70529CC29AE00859A64 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = B320A70429CC29AE00859A64 /* FirebaseAnalyticsOnDeviceConversion */; };
+		B320A70729CC29AE00859A64 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B320A70629CC29AE00859A64 /* FirebaseAnalyticsSwift */; };
+		B320A70929CC29AE00859A64 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = B320A70829CC29AE00859A64 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		B320A70B29CC29AE00859A64 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = B320A70A29CC29AE00859A64 /* FirebaseAppCheck */; };
+		B320A70D29CC29AE00859A64 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = B320A70C29CC29AE00859A64 /* FirebaseAppDistribution-Beta */; };
+		B320A70F29CC29AE00859A64 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B320A70E29CC29AE00859A64 /* FirebaseAuth */; };
+		B320A71129CC29AE00859A64 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B320A71029CC29AE00859A64 /* FirebaseAuthCombine-Community */; };
+		B320A71329CC29AE00859A64 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = B320A71229CC29AE00859A64 /* FirebaseCrashlytics */; };
+		B320A71529CC29AE00859A64 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = B320A71429CC29AE00859A64 /* FirebaseDatabase */; };
+		B320A71729CC29AE00859A64 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B320A71629CC29AE00859A64 /* FirebaseDatabaseSwift */; };
+		B320A71929CC29AE00859A64 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = B320A71829CC29AE00859A64 /* FirebaseDynamicLinks */; };
+		B320A71B29CC29AE00859A64 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B320A71A29CC29AE00859A64 /* FirebaseFirestore */; };
+		B320A71D29CC29AE00859A64 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B320A71C29CC29AE00859A64 /* FirebaseFirestoreCombine-Community */; };
+		B320A71F29CC29AE00859A64 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B320A71E29CC29AE00859A64 /* FirebaseFirestoreSwift */; };
+		B320A72129CC29AE00859A64 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = B320A72029CC29AE00859A64 /* FirebaseFunctions */; };
+		B320A72329CC29AE00859A64 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B320A72229CC29AE00859A64 /* FirebaseFunctionsCombine-Community */; };
+		B320A72529CC29AE00859A64 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = B320A72429CC29AE00859A64 /* FirebaseInAppMessaging-Beta */; };
+		B320A72729CC29AE00859A64 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = B320A72629CC29AE00859A64 /* FirebaseInAppMessagingSwift-Beta */; };
+		B320A72929CC29AE00859A64 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = B320A72829CC29AE00859A64 /* FirebaseInstallations */; };
+		B320A72B29CC29AE00859A64 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = B320A72A29CC29AE00859A64 /* FirebaseMLModelDownloader */; };
+		B320A72D29CC29AE00859A64 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B320A72C29CC29AE00859A64 /* FirebaseMessaging */; };
+		B320A72F29CC29AE00859A64 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = B320A72E29CC29AE00859A64 /* FirebasePerformance */; };
+		B320A73129CC29AE00859A64 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = B320A73029CC29AE00859A64 /* FirebaseRemoteConfig */; };
+		B320A73329CC29AE00859A64 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B320A73229CC29AE00859A64 /* FirebaseRemoteConfigSwift */; };
+		B320A73529CC29AE00859A64 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B320A73429CC29AE00859A64 /* FirebaseStorage */; };
+		B320A73729CC29AE00859A64 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B320A73629CC29AE00859A64 /* FirebaseStorageCombine-Community */; };
+		B320A73A29CC771C00859A64 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320A73929CC771C00859A64 /* RegistrationViewController.swift */; };
+		B320A73C29CC772900859A64 /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320A73B29CC772900859A64 /* RegistrationModel.swift */; };
+		B320A73E29CC773800859A64 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320A73D29CC773800859A64 /* RegistrationViewModel.swift */; };
+		B34DDD7D2A2CE9BF00A4DAE8 /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34DDD7C2A2CE9BF00A4DAE8 /* ExerciseListViewController.swift */; };
+		B3849CDF29D3CC000016975B /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3849CDE29D3CC000016975B /* AuthorizationViewController.swift */; };
+		B3849CE129D3CC0C0016975B /* AuthorizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3849CE029D3CC0C0016975B /* AuthorizationModel.swift */; };
+		B3849CE329D3CC190016975B /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3849CE229D3CC190016975B /* AuthorizationViewModel.swift */; };
+		B3C9EDCE29E3F00300D1A734 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3C9EDCD29E3F00300D1A734 /* GoogleService-Info.plist */; };
+		B3F9D0A82A27CFBF00F050E6 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F9D0A72A27CFBF00F050E6 /* ProfileModel.swift */; };
+		B3F9D0AA2A27CFC800F050E6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F9D0A92A27CFC800F050E6 /* ProfileViewModel.swift */; };
+		B3F9D0AD2A27D08600F050E6 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = B3F9D0AC2A27D08600F050E6 /* SDWebImage */; };
+		B3F9D0AF2A27D08600F050E6 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B3F9D0AE2A27D08600F050E6 /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B320A6E329CC23AF00859A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B320A6C129CC23AE00859A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B320A6C829CC23AE00859A64;
+			remoteInfo = FitnessApp;
+		};
+		B320A6ED29CC23AF00859A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B320A6C129CC23AE00859A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B320A6C829CC23AE00859A64;
+			remoteInfo = FitnessApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AA68E682A28E7110002E756 /* TrainStretchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStretchViewController.swift; sourceTree = "<group>"; };
+		9AA68E6A2A28E7230002E756 /* TrainWarmupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainWarmupViewController.swift; sourceTree = "<group>"; };
+		9AD0B01B2A02995500CB5923 /* StretchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchingViewController.swift; sourceTree = "<group>"; };
+		9AD0B01D2A02998A00CB5923 /* stretching.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stretching.json; sourceTree = "<group>"; };
+		9AD0B01F2A0299CB00CB5923 /* WarmUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpViewController.swift; sourceTree = "<group>"; };
+		9AD0B0212A0299EC00CB5923 /* warm-up.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "warm-up.json"; sourceTree = "<group>"; };
+		9AD6D07A29E897B400DF375A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		9AD6D07C29E8988F00DF375A /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		9AD6D07D29E8988F00DF375A /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		9AD6D07E29E8988F00DF375A /* TrainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainViewController.swift; sourceTree = "<group>"; };
+		9AD6D07F29E8988F00DF375A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9AD6D08429E8993F00DF375A /* ExercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		9AD6D08529E8993F00DF375A /* MyTrainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTrainViewController.swift; sourceTree = "<group>"; };
+		9AE00F522A13652C0078EB93 /* BodyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyDetailViewController.swift; sourceTree = "<group>"; };
+		9AE00F5E2A13953E0078EB93 /* TrainBodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainBodyViewController.swift; sourceTree = "<group>"; };
+		9AECB2A42A24DA310063574E /* StretchingDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchingDetailViewController.swift; sourceTree = "<group>"; };
+		9AECB2A62A24E54B0063574E /* WarmUpDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarmUpDetailViewController.swift; sourceTree = "<group>"; };
+		9AECB2A92A2518400063574E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		9AECEDE22A02535B00EC27AC /* allBody.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = allBody.json; sourceTree = "<group>"; };
+		9AECEDE52A0253A400EC27AC /* BodyExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyExercisesViewController.swift; sourceTree = "<group>"; };
+		B320A6C929CC23AE00859A64 /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B320A6CC29CC23AE00859A64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B320A6CE29CC23AE00859A64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B320A6D629CC23AE00859A64 /* FitnessApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FitnessApp.xcdatamodel; sourceTree = "<group>"; };
+		B320A6D829CC23AF00859A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B320A6DB29CC23AF00859A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B320A6DD29CC23AF00859A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B320A6E229CC23AF00859A64 /* FitnessAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B320A6EC29CC23AF00859A64 /* FitnessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = "wrapper.pb-project"; includeInIndex = 0; path = FitnessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B320A73929CC771C00859A64 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		B320A73B29CC772900859A64 /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
+		B320A73D29CC773800859A64 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		B34DDD7C2A2CE9BF00A4DAE8 /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
+		B3849CDE29D3CC000016975B /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		B3849CE029D3CC0C0016975B /* AuthorizationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationModel.swift; sourceTree = "<group>"; };
+		B3849CE229D3CC190016975B /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
+		B3C9EDCD29E3F00300D1A734 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3F9D0A72A27CFBF00F050E6 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		B3F9D0A92A27CFC800F050E6 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B320A6C629CC23AE00859A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F9D0AF2A27D08600F050E6 /* SDWebImageMapKit in Frameworks */,
+				B320A71529CC29AE00859A64 /* FirebaseDatabase in Frameworks */,
+				B320A72329CC29AE00859A64 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				B320A71B29CC29AE00859A64 /* FirebaseFirestore in Frameworks */,
+				B320A70729CC29AE00859A64 /* FirebaseAnalyticsSwift in Frameworks */,
+				B320A70329CC29AE00859A64 /* FirebaseAnalytics in Frameworks */,
+				B320A70529CC29AE00859A64 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				B320A72B29CC29AE00859A64 /* FirebaseMLModelDownloader in Frameworks */,
+				B320A71F29CC29AE00859A64 /* FirebaseFirestoreSwift in Frameworks */,
+				B320A70B29CC29AE00859A64 /* FirebaseAppCheck in Frameworks */,
+				B320A70929CC29AE00859A64 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				B3F9D0AD2A27D08600F050E6 /* SDWebImage in Frameworks */,
+				B320A70F29CC29AE00859A64 /* FirebaseAuth in Frameworks */,
+				B320A71329CC29AE00859A64 /* FirebaseCrashlytics in Frameworks */,
+				B320A73329CC29AE00859A64 /* FirebaseRemoteConfigSwift in Frameworks */,
+				B320A72529CC29AE00859A64 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				B320A71729CC29AE00859A64 /* FirebaseDatabaseSwift in Frameworks */,
+				B320A72129CC29AE00859A64 /* FirebaseFunctions in Frameworks */,
+				B320A73729CC29AE00859A64 /* FirebaseStorageCombine-Community in Frameworks */,
+				B320A73129CC29AE00859A64 /* FirebaseRemoteConfig in Frameworks */,
+				B320A70D29CC29AE00859A64 /* FirebaseAppDistribution-Beta in Frameworks */,
+				B320A71129CC29AE00859A64 /* FirebaseAuthCombine-Community in Frameworks */,
+				B320A72F29CC29AE00859A64 /* FirebasePerformance in Frameworks */,
+				B320A72729CC29AE00859A64 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				B320A73529CC29AE00859A64 /* FirebaseStorage in Frameworks */,
+				B320A71929CC29AE00859A64 /* FirebaseDynamicLinks in Frameworks */,
+				B320A71D29CC29AE00859A64 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				B320A72D29CC29AE00859A64 /* FirebaseMessaging in Frameworks */,
+				B320A72929CC29AE00859A64 /* FirebaseInstallations in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320A6DF29CC23AF00859A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320A6E929CC23AF00859A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD6D07929E8977000DF375A /* MainScreens */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6D07A29E897B400DF375A /* TabBarController.swift */,
+				9AD6D07C29E8988F00DF375A /* ActivityViewController.swift */,
+				9AD6D07E29E8988F00DF375A /* TrainViewController.swift */,
+				9AD6D07D29E8988F00DF375A /* MapsViewController.swift */,
+				B3F9D0A62A27CFAE00F050E6 /* ProfileScreen */,
+			);
+			path = MainScreens;
+			sourceTree = "<group>";
+		};
+		9AE00F512A1365030078EB93 /* DetailExercises */ = {
+			isa = PBXGroup;
+			children = (
+				9AE00F522A13652C0078EB93 /* BodyDetailViewController.swift */,
+				9AECB2A42A24DA310063574E /* StretchingDetailViewController.swift */,
+				9AECB2A62A24E54B0063574E /* WarmUpDetailViewController.swift */,
+			);
+			path = DetailExercises;
+			sourceTree = "<group>";
+		};
+		9AE00F572A1385210078EB93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AECB2A82A25021E0063574E /* StartTraining */ = {
+			isa = PBXGroup;
+			children = (
+				9AE00F5E2A13953E0078EB93 /* TrainBodyViewController.swift */,
+				9AA68E682A28E7110002E756 /* TrainStretchViewController.swift */,
+				9AA68E6A2A28E7230002E756 /* TrainWarmupViewController.swift */,
+			);
+			path = StartTraining;
+			sourceTree = "<group>";
+		};
+		9AECEDE42A02536200EC27AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AD0B0212A0299EC00CB5923 /* warm-up.json */,
+				9AD0B01D2A02998A00CB5923 /* stretching.json */,
+				9AECEDE22A02535B00EC27AC /* allBody.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9AECEDE72A0253BB00EC27AC /* AllExercises */ = {
+			isa = PBXGroup;
+			children = (
+				9AECEDE52A0253A400EC27AC /* BodyExercisesViewController.swift */,
+				9AD0B01B2A02995500CB5923 /* StretchingViewController.swift */,
+				9AD0B01F2A0299CB00CB5923 /* WarmUpViewController.swift */,
+			);
+			name = AllExercises;
+			sourceTree = "<group>";
+		};
+		B320A6C029CC23AE00859A64 = {
+			isa = PBXGroup;
+			children = (
+				B320A6CB29CC23AE00859A64 /* FitnessApp */,
+				B320A6CA29CC23AE00859A64 /* Products */,
+				9AE00F572A1385210078EB93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B320A6CA29CC23AE00859A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B320A6C929CC23AE00859A64 /* FitnessApp.app */,
+				B320A6E229CC23AF00859A64 /* FitnessAppTests.xctest */,
+				B320A6EC29CC23AF00859A64 /* FitnessAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B320A6CB29CC23AE00859A64 /* FitnessApp */ = {
+			isa = PBXGroup;
+			children = (
+				9AECB2A82A25021E0063574E /* StartTraining */,
+				9AE00F512A1365030078EB93 /* DetailExercises */,
+				9AECEDE72A0253BB00EC27AC /* AllExercises */,
+				9AECEDE42A02536200EC27AC /* Resources */,
+				9AD6D08429E8993F00DF375A /* ExercisesViewController.swift */,
+				9AD6D08529E8993F00DF375A /* MyTrainViewController.swift */,
+				9AECB2A92A2518400063574E /* HistoryViewController.swift */,
+				9AD6D07929E8977000DF375A /* MainScreens */,
+				B3849CDD29D3CBC60016975B /* AuthorizationScreen */,
+				B320A73829CC590D00859A64 /* RegistrationScreen */,
+				B320A6CC29CC23AE00859A64 /* AppDelegate.swift */,
+				B320A6CE29CC23AE00859A64 /* SceneDelegate.swift */,
+				B320A6D829CC23AF00859A64 /* Assets.xcassets */,
+				B320A6DA29CC23AF00859A64 /* LaunchScreen.storyboard */,
+				B3C9EDCD29E3F00300D1A734 /* GoogleService-Info.plist */,
+				B320A6DD29CC23AF00859A64 /* Info.plist */,
+				B320A6D529CC23AE00859A64 /* FitnessApp.xcdatamodeld */,
+				B34DDD7C2A2CE9BF00A4DAE8 /* ExerciseListViewController.swift */,
+			);
+			path = FitnessApp;
+			sourceTree = "<group>";
+		};
+		B320A73829CC590D00859A64 /* RegistrationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B320A73929CC771C00859A64 /* RegistrationViewController.swift */,
+				B320A73B29CC772900859A64 /* RegistrationModel.swift */,
+				B320A73D29CC773800859A64 /* RegistrationViewModel.swift */,
+			);
+			path = RegistrationScreen;
+			sourceTree = "<group>";
+		};
+		B3849CDD29D3CBC60016975B /* AuthorizationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B3849CDE29D3CC000016975B /* AuthorizationViewController.swift */,
+				B3849CE029D3CC0C0016975B /* AuthorizationModel.swift */,
+				B3849CE229D3CC190016975B /* AuthorizationViewModel.swift */,
+			);
+			path = AuthorizationScreen;
+			sourceTree = "<group>";
+		};
+		B3F9D0A62A27CFAE00F050E6 /* ProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				9AD6D07F29E8988F00DF375A /* ProfileViewController.swift */,
+				B3F9D0A72A27CFBF00F050E6 /* ProfileModel.swift */,
+				B3F9D0A92A27CFC800F050E6 /* ProfileViewModel.swift */,
+			);
+			path = ProfileScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B320A6C829CC23AE00859A64 /* FitnessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B320A6F629CC23AF00859A64 /* Build configuration list for PBXNativeTarget "FitnessApp" */;
+			buildPhases = (
+				B320A6C529CC23AE00859A64 /* Sources */,
+				B320A6C629CC23AE00859A64 /* Frameworks */,
+				B320A6C729CC23AE00859A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitnessApp;
+			packageProductDependencies = (
+				B320A70229CC29AE00859A64 /* FirebaseAnalytics */,
+				B320A70429CC29AE00859A64 /* FirebaseAnalyticsOnDeviceConversion */,
+				B320A70629CC29AE00859A64 /* FirebaseAnalyticsSwift */,
+				B320A70829CC29AE00859A64 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				B320A70A29CC29AE00859A64 /* FirebaseAppCheck */,
+				B320A70C29CC29AE00859A64 /* FirebaseAppDistribution-Beta */,
+				B320A70E29CC29AE00859A64 /* FirebaseAuth */,
+				B320A71029CC29AE00859A64 /* FirebaseAuthCombine-Community */,
+				B320A71229CC29AE00859A64 /* FirebaseCrashlytics */,
+				B320A71429CC29AE00859A64 /* FirebaseDatabase */,
+				B320A71629CC29AE00859A64 /* FirebaseDatabaseSwift */,
+				B320A71829CC29AE00859A64 /* FirebaseDynamicLinks */,
+				B320A71A29CC29AE00859A64 /* FirebaseFirestore */,
+				B320A71C29CC29AE00859A64 /* FirebaseFirestoreCombine-Community */,
+				B320A71E29CC29AE00859A64 /* FirebaseFirestoreSwift */,
+				B320A72029CC29AE00859A64 /* FirebaseFunctions */,
+				B320A72229CC29AE00859A64 /* FirebaseFunctionsCombine-Community */,
+				B320A72429CC29AE00859A64 /* FirebaseInAppMessaging-Beta */,
+				B320A72629CC29AE00859A64 /* FirebaseInAppMessagingSwift-Beta */,
+				B320A72829CC29AE00859A64 /* FirebaseInstallations */,
+				B320A72A29CC29AE00859A64 /* FirebaseMLModelDownloader */,
+				B320A72C29CC29AE00859A64 /* FirebaseMessaging */,
+				B320A72E29CC29AE00859A64 /* FirebasePerformance */,
+				B320A73029CC29AE00859A64 /* FirebaseRemoteConfig */,
+				B320A73229CC29AE00859A64 /* FirebaseRemoteConfigSwift */,
+				B320A73429CC29AE00859A64 /* FirebaseStorage */,
+				B320A73629CC29AE00859A64 /* FirebaseStorageCombine-Community */,
+				B3F9D0AC2A27D08600F050E6 /* SDWebImage */,
+				B3F9D0AE2A27D08600F050E6 /* SDWebImageMapKit */,
+			);
+			productName = FitnessApp;
+			productReference = B320A6C929CC23AE00859A64 /* FitnessApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B320A6E129CC23AF00859A64 /* FitnessAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B320A6F929CC23AF00859A64 /* Build configuration list for PBXNativeTarget "FitnessAppTests" */;
+			buildPhases = (
+				B320A6DE29CC23AF00859A64 /* Sources */,
+				B320A6DF29CC23AF00859A64 /* Frameworks */,
+				B320A6E029CC23AF00859A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B320A6E429CC23AF00859A64 /* PBXTargetDependency */,
+			);
+			name = FitnessAppTests;
+			productName = FitnessAppTests;
+			productReference = B320A6E229CC23AF00859A64 /* FitnessAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B320A6EB29CC23AF00859A64 /* FitnessAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B320A6FC29CC23AF00859A64 /* Build configuration list for PBXNativeTarget "FitnessAppUITests" */;
+			buildPhases = (
+				B320A6E829CC23AF00859A64 /* Sources */,
+				B320A6E929CC23AF00859A64 /* Frameworks */,
+				B320A6EA29CC23AF00859A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B320A6EE29CC23AF00859A64 /* PBXTargetDependency */,
+			);
+			name = FitnessAppUITests;
+			productName = FitnessAppUITests;
+			productReference = B320A6EC29CC23AF00859A64 /* FitnessAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B320A6C129CC23AE00859A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B320A6C829CC23AE00859A64 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B320A6E129CC23AF00859A64 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1430;
+						TestTargetID = B320A6C829CC23AE00859A64;
+					};
+					B320A6EB29CC23AF00859A64 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B320A6C829CC23AE00859A64;
+					};
+				};
+			};
+			buildConfigurationList = B320A6C429CC23AE00859A64 /* Build configuration list for PBXProject "FitnessApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B320A6C029CC23AE00859A64;
+			packageReferences = (
+				B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B3F9D0AB2A27D08600F050E6 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = B320A6CA29CC23AE00859A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B320A6C829CC23AE00859A64 /* FitnessApp */,
+				B320A6E129CC23AF00859A64 /* FitnessAppTests */,
+				B320A6EB29CC23AF00859A64 /* FitnessAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B320A6C729CC23AE00859A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B320A6DC29CC23AF00859A64 /* LaunchScreen.storyboard in Resources */,
+				B320A6D929CC23AF00859A64 /* Assets.xcassets in Resources */,
+				9AD0B01E2A02998A00CB5923 /* stretching.json in Resources */,
+				9AD0B0222A0299EC00CB5923 /* warm-up.json in Resources */,
+				B3C9EDCE29E3F00300D1A734 /* GoogleService-Info.plist in Resources */,
+				9AECEDE32A02535B00EC27AC /* allBody.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320A6E029CC23AF00859A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320A6EA29CC23AF00859A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B320A6C529CC23AE00859A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD6D08129E8988F00DF375A /* MapsViewController.swift in Sources */,
+				9AA68E692A28E7110002E756 /* TrainStretchViewController.swift in Sources */,
+				9AD6D08729E8993F00DF375A /* MyTrainViewController.swift in Sources */,
+				9AA68E6B2A28E7230002E756 /* TrainWarmupViewController.swift in Sources */,
+				9AECB2A52A24DA310063574E /* StretchingDetailViewController.swift in Sources */,
+				B3849CE329D3CC190016975B /* AuthorizationViewModel.swift in Sources */,
+				9AD6D08629E8993F00DF375A /* ExercisesViewController.swift in Sources */,
+				9AECB2A72A24E54B0063574E /* WarmUpDetailViewController.swift in Sources */,
+				9AD0B0202A0299CB00CB5923 /* WarmUpViewController.swift in Sources */,
+				9AE00F532A13652C0078EB93 /* BodyDetailViewController.swift in Sources */,
+				B320A6D729CC23AE00859A64 /* FitnessApp.xcdatamodeld in Sources */,
+				B3F9D0AA2A27CFC800F050E6 /* ProfileViewModel.swift in Sources */,
+				9AD6D07B29E897B400DF375A /* TabBarController.swift in Sources */,
+				9AD6D08029E8988F00DF375A /* ActivityViewController.swift in Sources */,
+				B320A73E29CC773800859A64 /* RegistrationViewModel.swift in Sources */,
+				B320A6CD29CC23AE00859A64 /* AppDelegate.swift in Sources */,
+				B320A6CF29CC23AE00859A64 /* SceneDelegate.swift in Sources */,
+				9AD0B01C2A02995500CB5923 /* StretchingViewController.swift in Sources */,
+				9AECB2AA2A2518400063574E /* HistoryViewController.swift in Sources */,
+				B320A73A29CC771C00859A64 /* RegistrationViewController.swift in Sources */,
+				9AE00F5F2A13953E0078EB93 /* TrainBodyViewController.swift in Sources */,
+				B3849CE129D3CC0C0016975B /* AuthorizationModel.swift in Sources */,
+				B3849CDF29D3CC000016975B /* AuthorizationViewController.swift in Sources */,
+				B3F9D0A82A27CFBF00F050E6 /* ProfileModel.swift in Sources */,
+				B320A73C29CC772900859A64 /* RegistrationModel.swift in Sources */,
+				9AECEDE62A0253A400EC27AC /* BodyExercisesViewController.swift in Sources */,
+				B34DDD7D2A2CE9BF00A4DAE8 /* ExerciseListViewController.swift in Sources */,
+				9AD6D08329E8988F00DF375A /* ProfileViewController.swift in Sources */,
+				9AD6D08229E8988F00DF375A /* TrainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320A6DE29CC23AF00859A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B320A6E829CC23AF00859A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B320A6E429CC23AF00859A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B320A6C829CC23AE00859A64 /* FitnessApp */;
+			targetProxy = B320A6E329CC23AF00859A64 /* PBXContainerItemProxy */;
+		};
+		B320A6EE29CC23AF00859A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B320A6C829CC23AE00859A64 /* FitnessApp */;
+			targetProxy = B320A6ED29CC23AF00859A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B320A6DA29CC23AF00859A64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B320A6DB29CC23AF00859A64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B320A6F429CC23AF00859A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B320A6F529CC23AF00859A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B320A6F729CC23AF00859A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G222NDT8US;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitnessApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team4.FitnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B320A6F829CC23AF00859A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G222NDT8US;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FitnessApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team4.FitnessApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B320A6FA29CC23AF00859A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team4.FitnessAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnessApp/FitnessAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitnessApp";
+			};
+			name = Debug;
+		};
+		B320A6FB29CC23AF00859A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team4.FitnessAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "FitnessApp/FitnessAppTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitnessApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitnessApp";
+			};
+			name = Release;
+		};
+		B320A6FD29CC23AF00859A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team4.FitnessAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessApp;
+			};
+			name = Debug;
+		};
+		B320A6FE29CC23AF00859A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.team4.FitnessAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitnessApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B320A6C429CC23AE00859A64 /* Build configuration list for PBXProject "FitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B320A6F429CC23AF00859A64 /* Debug */,
+				B320A6F529CC23AF00859A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B320A6F629CC23AF00859A64 /* Build configuration list for PBXNativeTarget "FitnessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B320A6F729CC23AF00859A64 /* Debug */,
+				B320A6F829CC23AF00859A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B320A6F929CC23AF00859A64 /* Build configuration list for PBXNativeTarget "FitnessAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B320A6FA29CC23AF00859A64 /* Debug */,
+				B320A6FB29CC23AF00859A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B320A6FC29CC23AF00859A64 /* Build configuration list for PBXNativeTarget "FitnessAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B320A6FD29CC23AF00859A64 /* Debug */,
+				B320A6FE29CC23AF00859A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		B3F9D0AB2A27D08600F050E6 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B320A70229CC29AE00859A64 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B320A70429CC29AE00859A64 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		B320A70629CC29AE00859A64 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		B320A70829CC29AE00859A64 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		B320A70A29CC29AE00859A64 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		B320A70C29CC29AE00859A64 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		B320A70E29CC29AE00859A64 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B320A71029CC29AE00859A64 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		B320A71229CC29AE00859A64 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		B320A71429CC29AE00859A64 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		B320A71629CC29AE00859A64 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		B320A71829CC29AE00859A64 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		B320A71A29CC29AE00859A64 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B320A71C29CC29AE00859A64 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		B320A71E29CC29AE00859A64 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		B320A72029CC29AE00859A64 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		B320A72229CC29AE00859A64 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		B320A72429CC29AE00859A64 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		B320A72629CC29AE00859A64 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		B320A72829CC29AE00859A64 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		B320A72A29CC29AE00859A64 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		B320A72C29CC29AE00859A64 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		B320A72E29CC29AE00859A64 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		B320A73029CC29AE00859A64 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		B320A73229CC29AE00859A64 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		B320A73429CC29AE00859A64 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		B320A73629CC29AE00859A64 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B320A70129CC29AE00859A64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		B3F9D0AC2A27D08600F050E6 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3F9D0AB2A27D08600F050E6 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		B3F9D0AE2A27D08600F050E6 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3F9D0AB2A27D08600F050E6 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B320A6D529CC23AE00859A64 /* FitnessApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B320A6D629CC23AE00859A64 /* FitnessApp.xcdatamodel */,
+			);
+			currentVersion = B320A6D629CC23AE00859A64 /* FitnessApp.xcdatamodel */;
+			path = FitnessApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B320A6C129CC23AE00859A64 /* Project object */;
+}
